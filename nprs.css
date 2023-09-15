@@ -1,0 +1,115 @@
+body{
+   
+    background: linear-gradient(45deg,rgb(122, 224, 216), rgb(255, 206, 236));
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.line{
+    width: 1px;
+    height: 80vh;
+    background-color: black;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+button{
+    background-color: #1e73be;
+}
+
+button:hover{
+    background-color: #727272;
+    cursor: pointer;
+}
+
+.buttmargin1{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 2px;
+    border: none;
+}
+
+.buttmargin2{
+    margin-left: 80px;
+    margin-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 2px;
+    border: none;
+}
+
+.logo1{
+    width:105px;
+    margin-left: 95px;
+    margin-bottom: 20px;
+}
+
+.logo2{
+    width:105px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 450px){
+    .container{
+        flex-wrap: wrap;
+        align-items: center;
+        height:100%;
+    }
+    
+    .firstdiv{
+       margin-top: 50px;
+       height: 100vh;
+    }
+     .buttmargin1{
+
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border-radius: 2px;
+        border: none;
+        margin-left: 100px;
+    }
+    
+    .logo1{
+        width:100px;
+        margin-left: 90px;
+        margin-bottom: 10px;
+        
+    }
+    .firstdiv2{
+        margin-top: -450px;
+     }
+
+     .line{
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        bottom: 50%;
+    }
+
+}
+
+.copy{
+    padding: 1.9px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
